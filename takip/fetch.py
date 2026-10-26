@@ -4,7 +4,7 @@
 Kullanım: python3 takip/fetch.py OUT.json
 Başarısız olursa çıkış kodu 2 ve stderr'de sebep.
 """
-import json, sys, time, datetime as dt
+import json, sys, time, datetime as dt, ssl, os, re, subprocess, tempfile
 import requests
 
 BASE = 'https://lodz.celcat.cloud/cal/'
@@ -24,6 +24,64 @@ MY = {
 }
 
 
+def _pem_from_bytes(data):
+    """DER, PEM ya da PKCS7 sertifika verisini PEM listesine çevirir (openssl ile)."""
+    rx = rb'-----BEGIN CERTIFICATE-----.+?-----END CERTIFICATE-----'
+    if b'-----BEGIN CERTIFICATE' in data:
+        return re.findall(rx, data, re.S)
+    with tempfile.NamedTemporaryFile('wb', delete=False) as f:
+        f.write(data); tmp = f.name
+    try:
+        for cmd in (['openssl', 'x509', '-inform', 'DER', '-in', tmp],
+                    ['openssl', 'pkcs7', '-inform', 'DER', '-in', tmp, '-print_certs'],
+                    ['openssl', 'pkcs7', '-inform', 'PEM', '-in', tmp, '-print_certs']):
+            pems = re.findall(rx, subprocess.run(cmd, capture_output=True).stdout, re.S)
+            if pems:
+                return pems
+        return []
+    finally:
+        os.unlink(tmp)
+
+
+def _ca_issuers(pem):
+    """Sertifikanın AIA 'CA Issuers' adreslerini döndürür."""
+    with tempfile.NamedTemporaryFile('wb', suffix='.pem', delete=False) as f:
+        f.write(pem if isinstance(pem, bytes) else pem.encode()); path = f.name
+    try:
+        try:
+            return list(ssl._ssl._test_decode_cert(path).get('caIssuers', ()))
+        except Exception:
+            out = subprocess.run(['openssl', 'x509', '-in', path, '-noout', '-text'], capture_output=True, text=True).stdout
+            return re.findall(r'CA Issuers - URI:(\S+)', out)
+    finally:
+        os.unlink(path)
+
+
+def ca_bundle_with_intermediates(host='lodz.celcat.cloud', leaf_pem=None):
+    """Sunucu ara sertifikayı göndermiyorsa (eksik zincir) AIA adresinden indirip güvenilir paketle birleştirir."""
+    import certifi
+    leaf = leaf_pem or ssl.get_server_certificate((host, 443)).encode()
+    extra, todo, seen = [], [leaf], set()
+    for _ in range(3):
+        nxt = []
+        for c in todo:
+            for url in _ca_issuers(c):
+                if url in seen:
+                    continue
+                seen.add(url)
+                pems = _pem_from_bytes(requests.get(url, timeout=30).content)
+                extra += pems; nxt += pems
+        todo = nxt
+        if not todo:
+            break
+    if not extra:
+        raise RuntimeError('ara sertifika bulunamadı')
+    bundle = os.path.join(tempfile.gettempdir(), 'celcat-ca.pem')
+    with open(bundle, 'wb') as f:
+        f.write(open(certifi.where(), 'rb').read() + b'\n' + b'\n'.join(extra) + b'\n')
+    return bundle
+
+
 def fetch_raw():
     s = requests.Session()
     s.headers.update({
@@ -32,6 +90,11 @@ def fetch_raw():
         'Referer': f'{BASE}?r={R}',
         'Origin': 'https://lodz.celcat.cloud',
     })
+    try:
+        requests.get(BASE, params={'r': R}, timeout=30)
+    except requests.exceptions.SSLError:
+        s.verify = ca_bundle_with_intermediates()   # eksik zinciri tamamla, doğrulama açık kalır
+        print('Celcat sertifika zinciri eksik; ara sertifika indirildi, doğrulama onunla yapılıyor')
     last = ''
     for attempt in range(3):
         try:
@@ -42,7 +105,7 @@ def fetch_raw():
             if r.status_code == 200 and r.text.lstrip().startswith('{'):
                 return r.json()
             last = f'events cevabı: HTTP {r.status_code}, {len(r.text)} bayt'
-        except requests.RequestException as e:
+        except (requests.RequestException, RuntimeError, OSError) as e:
             last = f'bağlantı hatası: {e}'
         time.sleep(20 * (attempt + 1))
     raise RuntimeError(last)
