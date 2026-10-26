@@ -9,6 +9,10 @@ on:
         description: "Değişiklik olmasa da test bildirimi gönder"
         type: boolean
         default: false
+      takvim_testi:
+        description: "iPhone takvimine bugün 21:00'e geçici test etkinliği ekle"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +37,8 @@ jobs:
 
       - name: Celcat'ı kontrol et
         id: run
+        env:
+          TAKVIM_TESTI: ${{ inputs.takvim_testi }}
         run: python takip/run.py
 
       - name: Değişiklikleri kaydet
