@@ -60,7 +60,11 @@ jobs:
             echo "Kaydedilecek değişiklik yok"
           else
             git commit -m "Celcat kontrolü: ${{ steps.run.outputs.status }} ($(date -u +%F))"
-            git push
+            # Aynı anda iki çalışma olursa push reddedilir: önce en güncel hali çek, sonra tekrar dene
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              echo "push denemesi $i başarısız, tekrar deneniyor"; sleep 10
+            done
           fi
 
       - name: Bildirim gönder
