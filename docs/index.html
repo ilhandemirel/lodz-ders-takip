@@ -1,0 +1,90 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>body{margin:0}</style></head><body><title>Łódź Ders Programım</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: week switcher + 5-day timetable grid (08–20), conflicts marked in place, decisions panel on top */
+:root{--bg:#f6f7f9;--panel:#ffffff;--fg:#1b1f27;--muted:#5d6675;--line:#dfe3ea;--accent:#8a1c1c;--bad:#c62828;--badbg:#fdecec;
+--c-CC:#2f6fdb;--c-IoT:#0f8a6a;--c-ML:#7a4fd0;--c-WC:#c27400;--c-CH:#b8336a;--c-DS:#4b6a88;--c-PMM:#6f7d1c;--c-IT:#c4511f;
+--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151b;--panel:#1a1e26;--fg:#e7eaf0;--muted:#98a2b3;--line:#2a303b;--accent:#e06464;--bad:#ff6b6b;--badbg:#3a1d1f;
+--c-CC:#6b9cf0;--c-IoT:#3fc39c;--c-ML:#a88af0;--c-WC:#f0a53c;--c-CH:#e36b9a;--c-DS:#8aa8c4;--c-PMM:#b3c24a;--c-IT:#f08a5d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151b;--panel:#1a1e26;--fg:#e7eaf0;--muted:#98a2b3;--line:#2a303b;--accent:#e06464;--bad:#ff6b6b;--badbg:#3a1d1f;
+--c-CC:#6b9cf0;--c-IoT:#3fc39c;--c-ML:#a88af0;--c-WC:#f0a53c;--c-CH:#e36b9a;--c-DS:#8aa8c4;--c-PMM:#b3c24a;--c-IT:#f08a5d;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:14px}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:20px}
+h1{font-size:22px;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin-top:4px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.panel h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px}
+.dec{display:grid;gap:10px}
+.dec div{border-left:3px solid var(--bad);padding:2px 0 2px 10px;line-height:1.5}
+.dec b{color:var(--fg)}
+.nav{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.nav button{font:inherit;background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
+.nav button:focus-visible{outline:2px solid var(--accent)}
+.wk{font-family:var(--mono);font-size:15px;min-width:210px;text-align:center}
+.flag{font-size:12px;padding:3px 8px;border-radius:99px;background:var(--badbg);color:var(--bad);font-weight:600}
+.ok{background:transparent;color:var(--muted);font-weight:400}
+.gridwrap{overflow-x:auto}
+.grid{display:grid;grid-template-columns:44px repeat(5,minmax(150px,1fr));min-width:800px;position:relative}
+.hd{font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line)}
+.hd small{color:var(--muted);font-weight:400;font-family:var(--mono)}
+.col{position:relative;border-left:1px solid var(--line);height:calc(12 * 56px)}
+.times{position:relative;height:calc(12 * 56px)}
+.times span{position:absolute;right:6px;font-family:var(--mono);font-size:11px;color:var(--muted);transform:translateY(-6px)}
+.hl{position:absolute;left:0;right:0;border-top:1px dashed var(--line)}
+.ev{position:absolute;border-radius:6px;padding:4px 6px;font-size:11.5px;line-height:1.3;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--cc);}
+.ev .t{font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.ev .n{font-weight:600;color:var(--cc)}
+.ev.bad{background:var(--badbg);border-color:var(--bad);border-left-color:var(--bad)}
+.ev.opt{border-style:dashed;opacity:.8}
+.empty{color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12.5px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--cc);margin-right:6px;vertical-align:-1px}
+.foot{color:var(--muted);font-size:12.5px;line-height:1.6}
+</style>
+<div class="wrap">
+<header><h1>Łódź Ders Programım · 2026/27 Kış</h1><div class="sub">Celcat'tan alındı ve kontrol edildi (26.10.2026). Erasmus grubu öncelikli seçildi.</div></header>
+<section class="panel"><h2>Durum</h2><div class="dec"><div style="border-left-color:var(--c-IoT)"><b>7 ders, 24 ECTS. Bugünden sonra çakışma yok.</b></div><div style="border-left-color:var(--accent)"><b>Son değişiklikler:</b><br>DEĞİŞTİ: Production Management Methods Laboratory (3BSTen/fr - ERASMUS 1) | Pzt 10:15–12:00, 11 tarih: 26 Eki, 2 Kas, 16 Kas, 23 Kas, 30 Kas, 7 Ara, 14 Ara, 21 Ara, 11 Oca, 18 Oca, 25 Oca | IFE (A-16) · 103  [salon IFE (A-16) · 12 → IFE (A-16) · 103]<br>YENİ: Production Management Methods Laboratory (3BSTen/fr - ERASMUS 1) – FACTORY VISIT 1 – BSH | 3 Kas Sal 11:00–13:00 | Yer: hocadan öğren (salon yok)<br>YENİ: Production Management Methods Laboratory (3BSTen/fr - ERASMUS 1) – The White Factory - trip | 20 Kas Cum 10:00–12:15 | Yer: hocadan öğren (salon yok)<br>DEĞİŞTİ: Production Management Methods Lecture | 4 Ara Cum 14:15–18:15 | A22 · 1M02  [önceden 14:15–15:45, A22 · 1M02]<br>YENİ: Production Management Methods Laboratory (3BSTen/fr - ERASMUS 1) | 1 Şub Pzt 10:15–12:00 | IFE (A-16) · 103<br>YENİ: Machine Learning Lecture | 1 Şub Pzt 14:15–15:45 | B14 · 2.11<br>YENİ: Machine Learning Project (5MMDA - group 1) | 1 Şub Pzt 16:15–17:45 | B14 · 2.11<br>YENİ: Cloud Computing Systems Project (5IT - ERASMUS 1, 5IT - ERASMUS 2) | 1 Şub Pzt 18:00–19:30 | B19 · 103<br>YENİ: Cloud Computing Systems Lecture | 2 Şub Sal 10:15–11:45 | B9 · F2<br>YENİ: Digital Systems 1 Laboratory (3CS - ERASMUS) | 2 Şub Sal 12:15–13:45 | B9/i23 · 204<br>YENİ: Information Technologies Laboratory (1ETE - group 2) | 2 Şub Sal 17:15–19:45 | B18 · lab.B</div><div style="border-left-color:var(--muted)">2026-11-03: Cloud Computing Systems programdan çıkarıldı – Bu gün PMM fabrika gezisine (BSH) gidiyorsun; Cloud lecture'a katılım zorunlu değil</div></div></section>
+<section class="panel" style="display:grid;gap:14px">
+<div class="nav"><button id="prev" aria-label="Önceki hafta">‹</button><div class="wk" id="wk"></div><button id="next" aria-label="Sonraki hafta">›</button><button id="today">Bu hafta</button><span id="flag" class="flag"></span></div>
+<div class="gridwrap"><div class="grid" id="grid"></div></div>
+<div class="legend" id="legend"></div>
+</section>
+<p class="foot">Kırmızı kutu çıkarsa çakışma var demektir. Celcat'ta program değişirse bu sayfa güncellenmez; Claude'a "programı güncelle" demen yeterli.</p>
+</div>
+<script>
+const D=[{"c": "Information Technologies", "k": "IT", "t": "Laboratory", "g": "1ETE - group 2", "d": 2, "s": 1035, "u": 150, "w": "0111111111110001111", "r": "B18 · lab.B", "p": "NAPIERALSKI, Jan"}, {"c": "Digital Systems 1", "k": "DS", "t": "Lecture", "g": "herkes", "d": 5, "s": 735, "u": 90, "w": "1110111101110001110", "r": "B9/i23 · 416", "p": "DĘBIEC, Piotr"}, {"c": "Digital Systems 1", "k": "DS", "t": "Tutorials", "g": "3CS - group 1, 3CS - group 2 · weeks 5,7,9,11,13", "d": 2, "s": 855, "u": 90, "w": "0000010101010000100", "r": "B9/i23 · 320A", "p": "DĘBIEC, Piotr"}, {"c": "Production Management Methods", "k": "PMM", "t": "Lecture", "g": "herkes", "d": 5, "s": 855, "u": 90, "w": "0001111000110000000", "r": "A22 · 1M02", "p": "STATUCKI, Jakub"}, {"c": "Wireless Communication", "k": "WC", "t": "Lecture", "g": "herkes", "d": 3, "s": 735, "u": 90, "w": "0111110111110001110", "r": "B9/i23 · 415", "p": "HAUSMAN, Sławomir"}, {"c": "Machine Learning", "k": "ML", "t": "Lecture", "g": "herkes", "d": 1, "s": 855, "u": 90, "w": "0111110111111001111", "r": "B14 · 2.11", "p": "TUROBOŚ, Filip"}, {"c": "Machine Learning", "k": "ML", "t": "Project", "g": "5MMDA - group 1", "d": 1, "s": 975, "u": 90, "w": "0111110111111001111", "r": "B14 · 2.11", "p": "TUROBOŚ, Filip"}, {"c": "Cloud Computing Systems", "k": "CC", "t": "Lecture", "g": "herkes", "d": 2, "s": 615, "u": 90, "w": "0101000101010000101", "r": "B9 · F2", "p": "PONISZEWSKA-MARAŃDA, Aneta"}, {"c": "Internet of Things", "k": "IoT", "t": "Lecture", "g": "herkes", "d": 3, "s": 855, "u": 90, "w": "0111110111110001110", "r": "B18 · AULA A2", "p": "MAKOWSKI, Dariusz, ZAJĄC, Piotr"}, {"c": "Internet of Things", "k": "IoT", "t": "Laboratory", "g": "5CS - Erasmus 2", "d": 3, "s": 1095, "u": 90, "w": "0111110111110001110", "r": "B18 · lab.M", "p": "ZAJĄC, Piotr"}, {"c": "Production Management Methods", "k": "PMM", "t": "Laboratory", "g": "3BSTen/fr - ERASMUS 1 · start from 26.10.", "d": 1, "s": 615, "u": 105, "w": "0000110111111001111", "r": "IFE (A-16) · 103", "p": "Godziszko, Magdalena"}, {"c": "Wireless Communication", "k": "WC", "t": "Laboratory", "g": "5ETE - Erasmus 1 · odd weeks", "d": 5, "s": 495, "u": 90, "w": "1010101010100001010", "r": "B9/i23 · 321A", "p": "KAWECKI, Jarosław"}, {"c": "Digital Systems 1", "k": "DS", "t": "Laboratory", "g": "3CS - ERASMUS · even weeks", "d": 2, "s": 735, "u": 90, "w": "0010101010100001011", "r": "B9/i23 · 204", "p": "DĘBIEC, Piotr"}, {"c": "Internet of Things", "k": "IoT", "t": "Lecture", "g": "herkes", "d": 1, "s": 855, "u": 90, "w": "0000001000000000000", "r": "B18 · AULA A2", "p": "MAKOWSKI, Dariusz, ZAJĄC, Piotr"}, {"c": "Internet of Things", "k": "IoT", "t": "Lecture", "g": "herkes", "d": 2, "s": 855, "u": 90, "w": "0000000000001000000", "r": "B18 · AULA A2", "p": "MAKOWSKI, Dariusz, ZAJĄC, Piotr"}, {"c": "Wireless Communication", "k": "WC", "t": "Lecture", "g": "herkes", "d": 1, "s": 735, "u": 90, "w": "0000001000000000000", "r": "B9/i23 · 415", "p": "HAUSMAN, Sławomir"}, {"c": "Wireless Communication", "k": "WC", "t": "Lecture", "g": "herkes", "d": 2, "s": 735, "u": 90, "w": "0000000000001000000", "r": "B9/i23 · 415", "p": "HAUSMAN, Sławomir"}, {"c": "Digital Systems 1", "k": "DS", "t": "Lecture", "g": "herkes", "d": 2, "s": 855, "u": 90, "w": "0110000000000000000", "r": "B18 · AULA A2", "p": "DĘBIEC, Piotr"}, {"c": "Cloud Computing Systems", "k": "CC", "t": "Project", "g": "5IT - ERASMUS 1, 5IT - ERASMUS 2", "d": 1, "s": 1080, "u": 90, "w": "0111110111111001111", "r": "B19 · 103", "p": "CEGIELSKI, Marcin, CZYŻEWSKI, Adam"}, {"c": "Production Management Methods", "k": "PMM", "t": "Laboratory", "g": "3BSTen/fr - ERASMUS 1 · FACTORY VISIT 1 – BSH", "d": 2, "s": 660, "u": 120, "w": "0000010000000000000", "r": "Yer: hocadan öğren (salon yok)", "p": "Godziszko, Magdalena"}, {"c": "Production Management Methods", "k": "PMM", "t": "Lecture", "g": "herkes", "d": 5, "s": 855, "u": 240, "w": "0000000001000000000", "r": "A22 · 1M02", "p": "STATUCKI, Jakub"}, {"c": "Production Management Methods", "k": "PMM", "t": "Laboratory", "g": "3BSTen/fr - ERASMUS 1 · The White Factory - trip", "d": 5, "s": 600, "u": 135, "w": "0000000100000000000", "r": "Yer: hocadan öğren (salon yok)", "p": "Godziszko, Magdalena"}];
+const BASE=new Date(2026,8,28), NW=Math.max(...D.map(e=>e.w.length)), DAYS=['Pzt','Sal','Çar','Per','Cum'], H0=8, PX=56/60;
+const pad=n=>String(n).padStart(2,'0'), hm=m=>pad(Math.floor(m/60))+':'+pad(m%60);
+const dOf=(w,d)=>{const x=new Date(BASE);x.setDate(x.getDate()+7*w+d-1);return x};
+const fd=x=>pad(x.getDate())+'.'+pad(x.getMonth()+1);
+const legend=document.getElementById('legend');[...new Map(D.map(e=>[e.k,e.c])).entries()].forEach(([k,c])=>{legend.insertAdjacentHTML('beforeend',`<span style="--cc:var(--c-${k})"><i></i>${c}</span>`)});
+function thisWeek(){const t=new Date();const w=Math.floor((t-BASE)/(7*864e5));return Math.min(Math.max(w,0),NW-1)}
+let W=thisWeek(); if(new Date().getDay()===0||new Date().getDay()===6) W=Math.min(W+1,NW-1);
+function render(){
+ const g=document.getElementById('grid');g.innerHTML='<div class="hd"></div>';
+ for(let d=1;d<=5;d++)g.insertAdjacentHTML('beforeend',`<div class="hd">${DAYS[d-1]} <small>${fd(dOf(W,d))}</small></div>`);
+ let t='<div class="times">';for(let h=H0;h<=20;h++)t+=`<span style="top:${(h-H0)*56}px">${pad(h)}</span>`;g.insertAdjacentHTML('beforeend',t+'</div>');
+ const evs=D.filter(e=>e.w[W]==='1'&&dOf(W,e.d)>=new Date(2026,9,1));
+ let nb=0;
+ for(let d=1;d<=5;d++){
+  const col=document.createElement('div');col.className='col';
+  for(let h=1;h<12;h++)col.insertAdjacentHTML('beforeend',`<div class="hl" style="top:${h*56}px"></div>`);
+  const de=evs.filter(e=>e.d===d).sort((a,b)=>a.s-b.s);
+  const lane=[];de.forEach(e=>{let l=0;while(lane[l]>e.s)l++;lane[l]=e.s+e.u;e._l=l});
+  de.forEach(e=>{e._n=Math.max(...de.filter(o=>o.s<e.s+e.u&&e.s<o.s+o.u).map(o=>o._l))+1;
+   e._bad=de.some(o=>o!==e&&o.s<e.s+e.u&&e.s<o.s+o.u&&!(o.k===e.k&&o.t===e.t&&o.k==='DS'));});
+  de.forEach(e=>{if(e._bad)nb++;const opt=e.k==='DS'&&e.t==='Tutorials';
+   col.insertAdjacentHTML('beforeend',`<div class="ev${e._bad?' bad':''}${opt?' opt':''}" style="--cc:var(--c-${e.k});top:${(e.s-H0*60)*PX}px;height:${e.u*PX-2}px;left:calc(${e._l}*100%/${e._n} + 2px);width:calc(100%/${e._n} - 4px)" title="${e.c} · ${e.t} · ${e.g} · ${e.r} · ${e.p}"><div class="t">${hm(e.s)}–${hm(e.s+e.u)}</div><div class="n">${e.c}</div><div>${e.t} · ${e.g}</div><div class="t">${e.r}</div></div>`)});
+  g.appendChild(col);
+ }
+ document.getElementById('wk').textContent=`Hafta ${W} · ${fd(dOf(W,1))}–${fd(dOf(W,5))}`;
+ const f=document.getElementById('flag');
+ if(!evs.length){f.textContent='Ders yok (tatil)';f.className='flag ok'}
+ else if(nb){f.textContent='Bu hafta çakışma var';f.className='flag'}else{f.textContent='Çakışma yok';f.className='flag ok'}
+}
+document.getElementById('prev').onclick=()=>{if(W>0){W--;render()}};
+document.getElementById('next').onclick=()=>{if(W<NW-1){W++;render()}};
+document.getElementById('today').onclick=()=>{W=thisWeek();render()};
+render();
+</script></body></html>

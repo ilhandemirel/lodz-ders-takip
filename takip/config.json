@@ -1,0 +1,448 @@
+{
+ "base_monday": "2026-09-28",
+ "semester_start": "2026-10-01",
+ "courses": {
+  "CC": "Cloud Computing Systems",
+  "IoT": "Internet of Things",
+  "ML": "Machine Learning",
+  "WC": "Wireless Communication",
+  "DS": "Digital Systems 1",
+  "PMM": "Production Management Methods",
+  "IT": "Information Technologies"
+ },
+ "skip": [
+  {
+   "id": "23571",
+   "date": "2026-11-03",
+   "reason": "Bu gün PMM fabrika gezisine (BSH) gidiyorsun; Cloud lecture'a katılım zorunlu değil"
+  }
+ ],
+ "grup_secimleri": [
+  [
+   "Cloud Computing Systems",
+   "Lecture",
+   "5IT - tüm gruplar",
+   "Sal 10:15–11:45",
+   "B9 · F2",
+   "A haftaları",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Cloud Computing Systems",
+   "Project",
+   "5IT - ERASMUS 1; ERASMUS 2",
+   "Pzt 18:00–19:30",
+   "B19 · 103",
+   "Her hafta",
+   "✅",
+   "Erasmus grubu, çakışmıyor"
+  ],
+  [
+   "Cloud Computing Systems",
+   "Project",
+   "5IT - group 1",
+   "Per 14:00–15:30",
+   "B19 · 103",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var, ona gidiyorsun"
+  ],
+  [
+   "Cloud Computing Systems",
+   "Project",
+   "5IT - group 2",
+   "Çar 16:00–17:30",
+   "B9 · 432",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Internet of Things",
+   "Lecture",
+   "5CS - tüm gruplar",
+   "Çar 14:15–15:45",
+   "B18 · Aula A2",
+   "Her hafta (+9 Kas Pzt, 22 Ara Sal)",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - Erasmus 1",
+   "Per 16:15–17:45",
+   "B18 · lab.M",
+   "Her hafta",
+   "—",
+   "Hoca seni Erasmus 2'ye aldı"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - Erasmus 2",
+   "Çar 18:15–19:45",
+   "B18 · lab.M",
+   "Her çarşamba (11 Kas tatil)",
+   "✅",
+   "Hoca seni bu gruba aldı; Erasmus grubu, çakışmıyor"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - Erasmus 3",
+   "Per 18:15–19:45",
+   "B18 · lab.M",
+   "Her hafta",
+   "yedek",
+   "Çakışmıyor (4 Eki güncellemesinde eklendi)"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - group 1",
+   "Per 12:15–13:45",
+   "B18 · lab.M",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - group 2",
+   "Çar 16:15–17:45",
+   "B18 · lab.M",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Internet of Things",
+   "Laboratory",
+   "5CS - group 3",
+   "Per 14:15–15:45",
+   "B18 · lab.M",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Machine Learning",
+   "Lecture",
+   "5MMDA - tüm gruplar",
+   "Pzt 14:15–15:45",
+   "B14 · 2.11",
+   "Her hafta",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Machine Learning",
+   "Project",
+   "5MMDA - group 1",
+   "Pzt 16:15–17:45",
+   "B14 · 2.11",
+   "Her hafta",
+   "✅",
+   "Erasmus grubu yok; lecture sonrası aynı salon"
+  ],
+  [
+   "Machine Learning",
+   "Project",
+   "5MMDA - group 2",
+   "Per 14:15–15:45",
+   "B19 · 201",
+   "Her hafta",
+   "yedek",
+   "Çakışmıyor, gerekirse buna geçilebilir"
+  ],
+  [
+   "Wireless Communication",
+   "Lecture",
+   "5ETE - tüm gruplar",
+   "Çar 12:15–13:45",
+   "B9/i23 · 415",
+   "Her hafta (+9 Kas Pzt, 22 Ara Sal)",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Wireless Communication",
+   "Laboratory",
+   "5ETE - Erasmus 1",
+   "Cum 08:15–09:45",
+   "B9/i23 · 321A",
+   "B haftaları + 2 Eki (Celcat: \"odd weeks\")",
+   "✅",
+   "Erasmus grubu, çakışmıyor"
+  ],
+  [
+   "Wireless Communication",
+   "Laboratory",
+   "5ETE - group 1",
+   "Cum 10:15–11:45",
+   "B9/i23 · 321A",
+   "A haftaları (Celcat: \"even weeks\")",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Wireless Communication",
+   "Laboratory",
+   "5ETE - group 2",
+   "Cum 10:15–11:45",
+   "B9/i23 · 321A",
+   "B haftaları (Celcat: \"odd weeks\")",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Digital Systems 1",
+   "Lecture",
+   "3CS - tüm gruplar",
+   "Cum 12:15–13:45",
+   "B9/i23 · 416",
+   "Her hafta (23 Eki, 27 Kas hariç)",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Digital Systems 1",
+   "Lecture",
+   "3CS - tüm gruplar",
+   "Sal 14:15–15:45",
+   "B18 · Aula A2",
+   "Sadece 6 ve 13 Eki",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Digital Systems 1",
+   "Laboratory",
+   "3CS - ERASMUS",
+   "Sal 12:15–13:45",
+   "B9/i23 · 204",
+   "B haftaları (Celcat: \"even weeks\")",
+   "✅",
+   "Erasmus grubu, çakışmıyor"
+  ],
+  [
+   "Digital Systems 1",
+   "Laboratory",
+   "3CS - group 1",
+   "Sal 12:15–13:45",
+   "B9/i23 · 204",
+   "A haftaları (Celcat: \"odd weeks\")",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Digital Systems 1",
+   "Laboratory",
+   "3CS - group 2",
+   "Pzt 08:30–10:00",
+   "B9/i23 · 204",
+   "Düzensiz (Celcat: \"even weeks\")",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Digital Systems 1",
+   "Laboratory",
+   "3CS - group 3",
+   "Pzt 08:30–10:00",
+   "B9/i23 · 204",
+   "Düzensiz (Celcat: \"odd weeks\")",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Digital Systems 1",
+   "Tutorials",
+   "3CS - group 1; group 2",
+   "Sal 14:15–15:45",
+   "B9/i23 · 320A",
+   "A haftaları, 3 Kas'tan itibaren",
+   "✅",
+   "Erasmus grubu yok; çakışmıyor"
+  ],
+  [
+   "Digital Systems 1",
+   "Tutorials",
+   "3CS - group 3",
+   "Sal 14:15–15:45",
+   "B9/i23 · 320A",
+   "B haftaları, 10 Kas'tan itibaren",
+   "yedek",
+   "Çakışmıyor, hoca yönlendirirse buna git"
+  ],
+  [
+   "Production Management Methods",
+   "Lecture",
+   "3BST - tüm gruplar + ERASMUS 1/2/3",
+   "Cum 14:15–15:45",
+   "A22 · 1M02",
+   "23.10, 30.10, 6.11, 13.11, 4.12, 11.12, 18.12",
+   "✅",
+   "Lecture tek, herkes girer"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory",
+   "3BSTen/fr - ERASMUS 1",
+   "Pzt 10:15–12:00",
+   "IFE (A-16) · 103 (20 Eki'de IFE-12'den değişti)",
+   "Her hafta, 26 Eki'den itibaren",
+   "✅",
+   "Sadece Erasmus öğrencilerine ait grup, çakışmıyor"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory (gezi)",
+   "FACTORY VISIT 1 – BSH: ERASMUS 1 + INEMA + 3BSTfr g1/g2",
+   "Sal 3 Kas 11:00–13:00",
+   "Fabrika (BSH)",
+   "Tek sefer",
+   "⚠️",
+   "Senin grubunun gezisi; Cloud Lecture (10:15–11:45) ile çakışıyor"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory (gezi)",
+   "FACTORY VISIT 2 – Sabert: 3BSTen g1/g2 + ERASMUS 2/3",
+   "Per 5 Kas 09:00–11:00",
+   "Fabrika (Sabert)",
+   "Tek sefer",
+   "yedek",
+   "Çakışmasız; hocadan izin alırsan Gezi 1 yerine"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory (gezi)",
+   "White Factory: ERASMUS 1 + INEMA",
+   "Cum 20 Kas 10:00–12:15",
+   "Biała Fabryka",
+   "Tek sefer",
+   "✅",
+   "Senin grubunun gezisi; 12:15 DS Lecture'a geç kalırsın"
+  ],
+  [
+   "Production Management Methods",
+   "Lecture",
+   "Tüm gruplar (4 saatlik blok)",
+   "Cum 4 Ara 14:15–18:15",
+   "A22 · 1M02",
+   "Tek sefer",
+   "✅",
+   "O haftanın normal lecture'ı yerine"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory",
+   "3BSTfr - group 2 + ERASMUS 3",
+   "Pzt 12:15–14:00",
+   "IFE-12",
+   "12 Eki'den itibaren",
+   "yedek",
+   "Çakışmıyor ama Fransızca kolun grubuyla ortak"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory",
+   "3BSTfr - group 1 + ERASMUS 2",
+   "Sal 10:15–11:45",
+   "IFE-12",
+   "Her hafta",
+   "❌",
+   "Cloud Computing dersiyle çakışıyor"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory",
+   "3BSTen - group 1",
+   "Sal 08:30–10:00",
+   "IFE-12",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Production Management Methods",
+   "Laboratory",
+   "3BSTen - group 2",
+   "Pzt 08:30–10:00",
+   "IFE-12",
+   "Her hafta",
+   "—",
+   "Erasmus grubu var"
+  ],
+  [
+   "Information Technologies",
+   "Laboratory",
+   "1ETE - group 2",
+   "Sal 17:15–19:45",
+   "B18 · lab.B",
+   "Her hafta, 6 Eki'den itibaren",
+   "✅",
+   "Senin seçimin, çakışmıyor"
+  ],
+  [
+   "Information Technologies",
+   "Laboratory",
+   "1ETE - Erasmus 1",
+   "Cum 17:15–19:45",
+   "B18 · lab.B",
+   "Her hafta (ilk ders 2 Eki'de geçti)",
+   "yedek",
+   "Erasmus grubu, çakışmıyor"
+  ],
+  [
+   "Information Technologies",
+   "Laboratory",
+   "1ETE - group 1",
+   "Per 17:15–19:45",
+   "B18 · Iab.A",
+   "Her hafta",
+   "—",
+   "Senin seçimin group 2"
+  ],
+  [
+   "Information Technologies",
+   "Laboratory",
+   "1ABB / 1MDA grupları",
+   "—",
+   "—",
+   "—",
+   "❌",
+   "Başka bölümün dersi (senin ders dosyan ETE bölümünün)"
+  ]
+ ],
+ "notes": [
+  [
+   "Dersler",
+   "7 ders, 24 ECTS"
+  ],
+  [
+   "Celcat linki",
+   "https://lodz.celcat.cloud/cal/?r=WBmtIfKE4JASA8wP0"
+  ],
+  [
+   "Yoklama",
+   "Lab/proje/tutorial devamsızlığı kritik; lecture'lar daha esnek"
+  ],
+  [
+   "11 Kasım",
+   "Çarşamba resmi tatil; Çarşamba dersleri 9 Kasım Pazartesi'ye alındı"
+  ],
+  [
+   "22 Aralık",
+   "23 Aralık Çarşamba dersleri Salı 22 Aralık'a alındı"
+  ],
+  [
+   "Tatil",
+   "23 Aralık – 10 Ocak"
+  ]
+ ]
+}

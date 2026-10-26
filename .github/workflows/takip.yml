@@ -1,0 +1,66 @@
+name: Ders takibi
+
+on:
+  schedule:
+    - cron: "52 18 * * *"   # her gün 18:52 UTC = Łódź saatiyle 19:52 (kış saati)
+  workflow_dispatch:        # Actions sekmesinden elle çalıştırma
+    inputs:
+      test:
+        description: "Değişiklik olmasa da test bildirimi gönder"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ders-takibi
+  cancel-in-progress: false
+
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Paketleri kur
+        run: pip install requests openpyxl
+
+      - name: Celcat'ı kontrol et
+        id: run
+        run: python takip/run.py
+
+      - name: Değişiklikleri kaydet
+        run: |
+          git config user.name "ders-takip-bot"
+          git config user.email "ders-takip-bot@users.noreply.github.com"
+          git add state docs
+          if git diff --cached --quiet; then
+            echo "Kaydedilecek değişiklik yok"
+          else
+            git commit -m "Celcat kontrolü: ${{ steps.run.outputs.status }} ($(date -u +%F))"
+            git push
+          fi
+
+      - name: Bildirim gönder
+        if: steps.run.outputs.status == 'changed' || steps.run.outputs.status == 'failed' || inputs.test
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: python takip/notify.py ${{ (inputs.test && steps.run.outputs.status == 'nochange') && 'test' || steps.run.outputs.status }}
+
+      - name: Çıktıları sakla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: program-${{ github.run_number }}
+          path: out/
+          retention-days: 14

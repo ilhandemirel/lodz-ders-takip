@@ -1,0 +1,1777 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ilhan//lodz-takip//TR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Łódź Dersler
+X-WR-TIMEZONE:Europe/Warsaw
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:STANDARD
+DTSTART:19701025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lodz-23868-2026-10-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261002T081500
+DTEND;TZID=Europe/Warsaw:20261002T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-10-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261002T121500
+DTEND;TZID=Europe/Warsaw:20261002T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-10-05@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261005T141500
+DTEND;TZID=Europe/Warsaw:20261005T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-10-05@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261005T161500
+DTEND;TZID=Europe/Warsaw:20261005T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-10-05@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261005T180000
+DTEND;TZID=Europe/Warsaw:20261005T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2026-10-06@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261006T101500
+DTEND;TZID=Europe/Warsaw:20261006T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24155-2026-10-06@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261006T141500
+DTEND;TZID=Europe/Warsaw:20261006T154500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-10-06@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261006T171500
+DTEND;TZID=Europe/Warsaw:20261006T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-10-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261007T121500
+DTEND;TZID=Europe/Warsaw:20261007T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-10-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261007T141500
+DTEND;TZID=Europe/Warsaw:20261007T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-10-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261007T181500
+DTEND;TZID=Europe/Warsaw:20261007T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-10-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261009T121500
+DTEND;TZID=Europe/Warsaw:20261009T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-10-12@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261012T141500
+DTEND;TZID=Europe/Warsaw:20261012T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-10-12@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261012T161500
+DTEND;TZID=Europe/Warsaw:20261012T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-10-12@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261012T180000
+DTEND;TZID=Europe/Warsaw:20261012T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2026-10-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261013T121500
+DTEND;TZID=Europe/Warsaw:20261013T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24155-2026-10-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261013T141500
+DTEND;TZID=Europe/Warsaw:20261013T154500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-10-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261013T171500
+DTEND;TZID=Europe/Warsaw:20261013T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-10-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261014T121500
+DTEND;TZID=Europe/Warsaw:20261014T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-10-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261014T141500
+DTEND;TZID=Europe/Warsaw:20261014T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-10-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261014T181500
+DTEND;TZID=Europe/Warsaw:20261014T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2026-10-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261016T081500
+DTEND;TZID=Europe/Warsaw:20261016T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-10-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261016T121500
+DTEND;TZID=Europe/Warsaw:20261016T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-10-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261019T141500
+DTEND;TZID=Europe/Warsaw:20261019T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-10-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261019T161500
+DTEND;TZID=Europe/Warsaw:20261019T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-10-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261019T180000
+DTEND;TZID=Europe/Warsaw:20261019T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2026-10-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261020T101500
+DTEND;TZID=Europe/Warsaw:20261020T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-10-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261020T171500
+DTEND;TZID=Europe/Warsaw:20261020T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-10-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261021T121500
+DTEND;TZID=Europe/Warsaw:20261021T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-10-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261021T141500
+DTEND;TZID=Europe/Warsaw:20261021T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-10-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261021T181500
+DTEND;TZID=Europe/Warsaw:20261021T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-10-23@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261023T141500
+DTEND;TZID=Europe/Warsaw:20261023T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-10-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261026T101500
+DTEND;TZID=Europe/Warsaw:20261026T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-10-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261026T141500
+DTEND;TZID=Europe/Warsaw:20261026T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-10-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261026T161500
+DTEND;TZID=Europe/Warsaw:20261026T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-10-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261026T180000
+DTEND;TZID=Europe/Warsaw:20261026T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2026-10-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261027T121500
+DTEND;TZID=Europe/Warsaw:20261027T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-10-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261027T171500
+DTEND;TZID=Europe/Warsaw:20261027T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-10-28@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261028T121500
+DTEND;TZID=Europe/Warsaw:20261028T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-10-28@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261028T141500
+DTEND;TZID=Europe/Warsaw:20261028T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-10-28@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261028T181500
+DTEND;TZID=Europe/Warsaw:20261028T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2026-10-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261030T081500
+DTEND;TZID=Europe/Warsaw:20261030T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-10-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261030T121500
+DTEND;TZID=Europe/Warsaw:20261030T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-10-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261030T141500
+DTEND;TZID=Europe/Warsaw:20261030T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-11-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261102T101500
+DTEND;TZID=Europe/Warsaw:20261102T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-11-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261102T141500
+DTEND;TZID=Europe/Warsaw:20261102T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-11-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261102T161500
+DTEND;TZID=Europe/Warsaw:20261102T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-11-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261102T180000
+DTEND;TZID=Europe/Warsaw:20261102T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24808-2026-11-03@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261103T110000
+DTEND;TZID=Europe/Warsaw:20261103T130000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1 – FACTORY VISIT 1 – BSH
+LOCATION:Yer: hocadan öğren (salon yok)
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\; 3BSTfr - group 1\; 3BSTfr - group 2\
+ nHoca: Godziszko\, Magdalena\nNot: FACTORY VISIT 1 – BSH
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22899-2026-11-03@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261103T141500
+DTEND;TZID=Europe/Warsaw:20261103T154500
+SUMMARY:Digital Systems 1 Tutorials – Grup: 3CS - group 1\, 3CS - group
+  2
+LOCATION:B9/i23 · 320A
+DESCRIPTION:Grubun: 3CS - group 1\, 3CS - group 2\nCelcat'ta yazan: 3CS -
+  group 1\; 3CS - group 2\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-11-03@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261103T171500
+DTEND;TZID=Europe/Warsaw:20261103T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-11-04@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261104T121500
+DTEND;TZID=Europe/Warsaw:20261104T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-11-04@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261104T141500
+DTEND;TZID=Europe/Warsaw:20261104T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-11-04@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261104T181500
+DTEND;TZID=Europe/Warsaw:20261104T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-11-06@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261106T121500
+DTEND;TZID=Europe/Warsaw:20261106T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-11-06@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261106T141500
+DTEND;TZID=Europe/Warsaw:20261106T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24102-2026-11-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261109T121500
+DTEND;TZID=Europe/Warsaw:20261109T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24077-2026-11-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261109T141500
+DTEND;TZID=Europe/Warsaw:20261109T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2026-11-10@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261110T121500
+DTEND;TZID=Europe/Warsaw:20261110T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-11-10@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261110T171500
+DTEND;TZID=Europe/Warsaw:20261110T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2026-11-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261113T081500
+DTEND;TZID=Europe/Warsaw:20261113T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-11-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261113T121500
+DTEND;TZID=Europe/Warsaw:20261113T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-11-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261113T141500
+DTEND;TZID=Europe/Warsaw:20261113T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-11-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261116T101500
+DTEND;TZID=Europe/Warsaw:20261116T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-11-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261116T141500
+DTEND;TZID=Europe/Warsaw:20261116T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-11-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261116T161500
+DTEND;TZID=Europe/Warsaw:20261116T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-11-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261116T180000
+DTEND;TZID=Europe/Warsaw:20261116T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2026-11-17@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261117T101500
+DTEND;TZID=Europe/Warsaw:20261117T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22899-2026-11-17@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261117T141500
+DTEND;TZID=Europe/Warsaw:20261117T154500
+SUMMARY:Digital Systems 1 Tutorials – Grup: 3CS - group 1\, 3CS - group
+  2
+LOCATION:B9/i23 · 320A
+DESCRIPTION:Grubun: 3CS - group 1\, 3CS - group 2\nCelcat'ta yazan: 3CS -
+  group 1\; 3CS - group 2\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-11-17@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261117T171500
+DTEND;TZID=Europe/Warsaw:20261117T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-11-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261118T121500
+DTEND;TZID=Europe/Warsaw:20261118T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-11-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261118T141500
+DTEND;TZID=Europe/Warsaw:20261118T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-11-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261118T181500
+DTEND;TZID=Europe/Warsaw:20261118T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24897-2026-11-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261120T100000
+DTEND;TZID=Europe/Warsaw:20261120T121500
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1 – The White Factory - trip
+LOCATION:Yer: hocadan öğren (salon yok)
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena\nNot: The
+  White Factory - trip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-11-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261120T121500
+DTEND;TZID=Europe/Warsaw:20261120T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-11-23@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261123T101500
+DTEND;TZID=Europe/Warsaw:20261123T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-11-23@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261123T141500
+DTEND;TZID=Europe/Warsaw:20261123T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-11-23@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261123T161500
+DTEND;TZID=Europe/Warsaw:20261123T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-11-23@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261123T180000
+DTEND;TZID=Europe/Warsaw:20261123T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2026-11-24@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261124T121500
+DTEND;TZID=Europe/Warsaw:20261124T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-11-24@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261124T171500
+DTEND;TZID=Europe/Warsaw:20261124T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-11-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261125T121500
+DTEND;TZID=Europe/Warsaw:20261125T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-11-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261125T141500
+DTEND;TZID=Europe/Warsaw:20261125T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-11-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261125T181500
+DTEND;TZID=Europe/Warsaw:20261125T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2026-11-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261127T081500
+DTEND;TZID=Europe/Warsaw:20261127T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-11-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261130T101500
+DTEND;TZID=Europe/Warsaw:20261130T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-11-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261130T141500
+DTEND;TZID=Europe/Warsaw:20261130T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-11-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261130T161500
+DTEND;TZID=Europe/Warsaw:20261130T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-11-30@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261130T180000
+DTEND;TZID=Europe/Warsaw:20261130T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2026-12-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261201T101500
+DTEND;TZID=Europe/Warsaw:20261201T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22899-2026-12-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261201T141500
+DTEND;TZID=Europe/Warsaw:20261201T154500
+SUMMARY:Digital Systems 1 Tutorials – Grup: 3CS - group 1\, 3CS - group
+  2
+LOCATION:B9/i23 · 320A
+DESCRIPTION:Grubun: 3CS - group 1\, 3CS - group 2\nCelcat'ta yazan: 3CS -
+  group 1\; 3CS - group 2\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-12-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261201T171500
+DTEND;TZID=Europe/Warsaw:20261201T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-12-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261202T121500
+DTEND;TZID=Europe/Warsaw:20261202T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-12-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261202T141500
+DTEND;TZID=Europe/Warsaw:20261202T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-12-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261202T181500
+DTEND;TZID=Europe/Warsaw:20261202T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-12-04@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261204T121500
+DTEND;TZID=Europe/Warsaw:20261204T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24841-2026-12-04@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261204T141500
+DTEND;TZID=Europe/Warsaw:20261204T181500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-12-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261207T101500
+DTEND;TZID=Europe/Warsaw:20261207T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-12-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261207T141500
+DTEND;TZID=Europe/Warsaw:20261207T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-12-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261207T161500
+DTEND;TZID=Europe/Warsaw:20261207T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-12-07@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261207T180000
+DTEND;TZID=Europe/Warsaw:20261207T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2026-12-08@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261208T121500
+DTEND;TZID=Europe/Warsaw:20261208T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-12-08@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261208T171500
+DTEND;TZID=Europe/Warsaw:20261208T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-12-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261209T121500
+DTEND;TZID=Europe/Warsaw:20261209T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-12-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261209T141500
+DTEND;TZID=Europe/Warsaw:20261209T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-12-09@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261209T181500
+DTEND;TZID=Europe/Warsaw:20261209T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2026-12-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261211T081500
+DTEND;TZID=Europe/Warsaw:20261211T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-12-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261211T121500
+DTEND;TZID=Europe/Warsaw:20261211T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-12-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261211T141500
+DTEND;TZID=Europe/Warsaw:20261211T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-12-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261214T101500
+DTEND;TZID=Europe/Warsaw:20261214T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-12-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261214T141500
+DTEND;TZID=Europe/Warsaw:20261214T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-12-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261214T161500
+DTEND;TZID=Europe/Warsaw:20261214T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-12-14@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261214T180000
+DTEND;TZID=Europe/Warsaw:20261214T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2026-12-15@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261215T101500
+DTEND;TZID=Europe/Warsaw:20261215T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22899-2026-12-15@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261215T141500
+DTEND;TZID=Europe/Warsaw:20261215T154500
+SUMMARY:Digital Systems 1 Tutorials – Grup: 3CS - group 1\, 3CS - group
+  2
+LOCATION:B9/i23 · 320A
+DESCRIPTION:Grubun: 3CS - group 1\, 3CS - group 2\nCelcat'ta yazan: 3CS -
+  group 1\; 3CS - group 2\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2026-12-15@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261215T171500
+DTEND;TZID=Europe/Warsaw:20261215T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2026-12-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261216T121500
+DTEND;TZID=Europe/Warsaw:20261216T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2026-12-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261216T141500
+DTEND;TZID=Europe/Warsaw:20261216T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2026-12-16@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261216T181500
+DTEND;TZID=Europe/Warsaw:20261216T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2026-12-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261218T121500
+DTEND;TZID=Europe/Warsaw:20261218T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23257-2026-12-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261218T141500
+DTEND;TZID=Europe/Warsaw:20261218T154500
+SUMMARY:Production Management Methods Lecture – herkes
+LOCATION:A22 · 1M02
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3BSTen - group 1\; 3BSTen - 
+ group 2\; 3BSTfr - group 1\; 3BSTfr - group 2\; EMPIEO/INEMA (26/27 W)\;
+  3BSTen/fr - ERASMUS 1\; 3BSTen/fr - ERASMUS 2\; 3BSTen/fr - ERASMUS 3\n
+ Hoca: STATUCKI\, Jakub
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2026-12-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261221T101500
+DTEND;TZID=Europe/Warsaw:20261221T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2026-12-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261221T141500
+DTEND;TZID=Europe/Warsaw:20261221T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2026-12-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261221T161500
+DTEND;TZID=Europe/Warsaw:20261221T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2026-12-21@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261221T180000
+DTEND;TZID=Europe/Warsaw:20261221T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24103-2026-12-22@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261222T121500
+DTEND;TZID=Europe/Warsaw:20261222T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24078-2026-12-22@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20261222T141500
+DTEND;TZID=Europe/Warsaw:20261222T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2027-01-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270111T101500
+DTEND;TZID=Europe/Warsaw:20270111T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2027-01-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270111T141500
+DTEND;TZID=Europe/Warsaw:20270111T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2027-01-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270111T161500
+DTEND;TZID=Europe/Warsaw:20270111T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2027-01-11@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270111T180000
+DTEND;TZID=Europe/Warsaw:20270111T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2027-01-12@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270112T121500
+DTEND;TZID=Europe/Warsaw:20270112T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2027-01-12@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270112T171500
+DTEND;TZID=Europe/Warsaw:20270112T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2027-01-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270113T121500
+DTEND;TZID=Europe/Warsaw:20270113T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2027-01-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270113T141500
+DTEND;TZID=Europe/Warsaw:20270113T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2027-01-13@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270113T181500
+DTEND;TZID=Europe/Warsaw:20270113T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2027-01-15@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270115T081500
+DTEND;TZID=Europe/Warsaw:20270115T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2027-01-15@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270115T121500
+DTEND;TZID=Europe/Warsaw:20270115T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2027-01-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270118T101500
+DTEND;TZID=Europe/Warsaw:20270118T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2027-01-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270118T141500
+DTEND;TZID=Europe/Warsaw:20270118T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2027-01-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270118T161500
+DTEND;TZID=Europe/Warsaw:20270118T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2027-01-18@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270118T180000
+DTEND;TZID=Europe/Warsaw:20270118T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2027-01-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270119T101500
+DTEND;TZID=Europe/Warsaw:20270119T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22899-2027-01-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270119T141500
+DTEND;TZID=Europe/Warsaw:20270119T154500
+SUMMARY:Digital Systems 1 Tutorials – Grup: 3CS - group 1\, 3CS - group
+  2
+LOCATION:B9/i23 · 320A
+DESCRIPTION:Grubun: 3CS - group 1\, 3CS - group 2\nCelcat'ta yazan: 3CS -
+  group 1\; 3CS - group 2\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2027-01-19@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270119T171500
+DTEND;TZID=Europe/Warsaw:20270119T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2027-01-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270120T121500
+DTEND;TZID=Europe/Warsaw:20270120T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2027-01-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270120T141500
+DTEND;TZID=Europe/Warsaw:20270120T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2027-01-20@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270120T181500
+DTEND;TZID=Europe/Warsaw:20270120T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2027-01-22@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270122T121500
+DTEND;TZID=Europe/Warsaw:20270122T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2027-01-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270125T101500
+DTEND;TZID=Europe/Warsaw:20270125T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2027-01-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270125T141500
+DTEND;TZID=Europe/Warsaw:20270125T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2027-01-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270125T161500
+DTEND;TZID=Europe/Warsaw:20270125T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2027-01-25@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270125T180000
+DTEND;TZID=Europe/Warsaw:20270125T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2027-01-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270126T121500
+DTEND;TZID=Europe/Warsaw:20270126T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2027-01-26@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270126T171500
+DTEND;TZID=Europe/Warsaw:20270126T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23366-2027-01-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270127T121500
+DTEND;TZID=Europe/Warsaw:20270127T134500
+SUMMARY:Wireless Communication Lecture – herkes
+LOCATION:B9/i23 · 415
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5ETE - group 1\; 5ETE - grou
+ p 2\nHoca: HAUSMAN\, Sławomir
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23733-2027-01-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270127T141500
+DTEND;TZID=Europe/Warsaw:20270127T154500
+SUMMARY:Internet of Things Lecture – herkes
+LOCATION:B18 · AULA A2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5CS - group 2\; 5CS - group 
+ 1\; 5CS - group 3\; 5CS - Erasmus 1\; 5CS - Erasmus 2\; 5CS - Erasmus 3\
+ nHoca: MAKOWSKI\, Dariusz\, ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23818-2027-01-27@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270127T181500
+DTEND;TZID=Europe/Warsaw:20270127T194500
+SUMMARY:Internet of Things Laboratory – Grup: 5CS - Erasmus 2
+LOCATION:B18 · lab.M
+DESCRIPTION:Grubun: 5CS - Erasmus 2\nCelcat'ta yazan: 5CS - Erasmus 2\nHo
+ ca: ZAJĄC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23868-2027-01-29@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270129T081500
+DTEND;TZID=Europe/Warsaw:20270129T094500
+SUMMARY:Wireless Communication Laboratory – Grup: 5ETE - Erasmus 1
+LOCATION:B9/i23 · 321A
+DESCRIPTION:Grubun: 5ETE - Erasmus 1\nCelcat'ta yazan: 5ETE - Erasmus 1\n
+ Hoca: KAWECKI\, Jarosław
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22898-2027-01-29@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270129T121500
+DTEND;TZID=Europe/Warsaw:20270129T134500
+SUMMARY:Digital Systems 1 Lecture – herkes
+LOCATION:B9/i23 · 416
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 3CS - group 1\; 3CS - group 
+ 2\; 3CS - group 3\nHoca: DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23848-2027-02-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270201T101500
+DTEND;TZID=Europe/Warsaw:20270201T120000
+SUMMARY:Production Management Methods Laboratory – Grup: 3BSTen/fr - ER
+ ASMUS 1
+LOCATION:IFE (A-16) · 103
+DESCRIPTION:Grubun: 3BSTen/fr - ERASMUS 1\nCelcat'ta yazan: 3BSTen/fr - E
+ RASMUS 1\; EMPIEO/INEMA (26/27 W)\nHoca: Godziszko\, Magdalena
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23491-2027-02-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270201T141500
+DTEND;TZID=Europe/Warsaw:20270201T154500
+SUMMARY:Machine Learning Lecture – herkes
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5MMDA - group 1\; 5MMDA - gr
+ oup 2\nHoca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23492-2027-02-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270201T161500
+DTEND;TZID=Europe/Warsaw:20270201T174500
+SUMMARY:Machine Learning Project – Grup: 5MMDA - group 1
+LOCATION:B14 · 2.11
+DESCRIPTION:Grubun: 5MMDA - group 1\nCelcat'ta yazan: 5MMDA - group 1\nHo
+ ca: TUROBOŚ\, Filip
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-24568-2027-02-01@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270201T180000
+DTEND;TZID=Europe/Warsaw:20270201T193000
+SUMMARY:Cloud Computing Systems Project – Grup: 5IT - ERASMUS 1\, 5IT -
+  ERASMUS 2
+LOCATION:B19 · 103
+DESCRIPTION:Grubun: 5IT - ERASMUS 1\, 5IT - ERASMUS 2\nCelcat'ta yazan: 5
+ IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: CEGIELSKI\, Marcin\, CZYŻEWSKI\
+ , Adam
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23571-2027-02-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270202T101500
+DTEND;TZID=Europe/Warsaw:20270202T114500
+SUMMARY:Cloud Computing Systems Lecture – herkes
+LOCATION:B9 · F2
+DESCRIPTION:Grubun: herkes\nCelcat'ta yazan: 5IT - group 1\; 5IT - group 
+ 2\; 5IT - ERASMUS 1\; 5IT - ERASMUS 2\nHoca: PONISZEWSKA-MARAŃDA\, Anet
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-23941-2027-02-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270202T121500
+DTEND;TZID=Europe/Warsaw:20270202T134500
+SUMMARY:Digital Systems 1 Laboratory – Grup: 3CS - ERASMUS
+LOCATION:B9/i23 · 204
+DESCRIPTION:Grubun: 3CS - ERASMUS\nCelcat'ta yazan: 3CS - ERASMUS\nHoca: 
+ DĘBIEC\, Piotr
+END:VEVENT
+BEGIN:VEVENT
+UID:lodz-22761-2027-02-02@ilhan
+DTSTAMP:20261026T135405Z
+DTSTART;TZID=Europe/Warsaw:20270202T171500
+DTEND;TZID=Europe/Warsaw:20270202T194500
+SUMMARY:Information Technologies Laboratory – Grup: 1ETE - group 2
+LOCATION:B18 · lab.B
+DESCRIPTION:Grubun: 1ETE - group 2\nCelcat'ta yazan: 1ETE - group 2\nHoca
+ : NAPIERALSKI\, Jan
+END:VEVENT
+END:VCALENDAR
