@@ -10,9 +10,17 @@ on:
         type: boolean
         default: false
       takvim_testi:
-        description: "iPhone takvimine bugün 21:00'e geçici test etkinliği ekle"
+        description: "iPhone takvimine geçici test etkinliği ekle"
         type: boolean
         default: false
+      test_tarih:
+        description: "Test etkinliğinin tarihi (YYYY-AA-GG, boş = bugün)"
+        type: string
+        default: ""
+      test_saat:
+        description: "Test etkinliğinin saati (SS:DD)"
+        type: string
+        default: "21:00"
 
 permissions:
   contents: write
@@ -39,6 +47,8 @@ jobs:
         id: run
         env:
           TAKVIM_TESTI: ${{ inputs.takvim_testi }}
+          TEST_TARIH: ${{ inputs.test_tarih }}
+          TEST_SAAT: ${{ inputs.test_saat }}
         run: python takip/run.py
 
       - name: Değişiklikleri kaydet
