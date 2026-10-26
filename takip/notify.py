@@ -5,7 +5,7 @@ Kullanım: python3 takip/notify.py changed|failed
 Gerekli GitHub Secrets: GMAIL_USER, GMAIL_APP_PASSWORD, MAIL_TO
 İsteğe bağlı: CALLMEBOT_PHONE (+48..., +90...), CALLMEBOT_APIKEY
 """
-import os, sys, smtplib, ssl, urllib.parse, urllib.request
+import os, re, sys, smtplib, ssl, urllib.parse, urllib.request
 from email.message import EmailMessage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -57,10 +57,15 @@ if phone and key:
     if status == 'changed' and site:
         text += f"\n\nSayfa: {site}"
     url = 'https://api.callmebot.com/whatsapp.php?' + urllib.parse.urlencode({'phone': phone, 'text': text, 'apikey': key})
+    print('WhatsApp numarası:', phone[:4] + '…' + phone[-2:], '| apikey uzunluğu:', len(key))
     try:
         with urllib.request.urlopen(url, timeout=30) as r:
-            print('WhatsApp:', r.status)
+            body_txt = r.read().decode('utf-8', 'replace')
+        clean = re.sub(r'<[^>]+>', ' ', body_txt); clean = re.sub(r'\s+', ' ', clean).strip()
+        print('WhatsApp cevabı (CallMeBot):', clean[:400])
+        if 'queued' not in clean.lower() and 'sent' not in clean.lower():
+            print('::warning::WhatsApp mesajı gönderilemedi: ' + clean[:200])
     except Exception as e:
-        print('WhatsApp gönderilemedi:', e)
+        print('::warning::WhatsApp gönderilemedi: ' + str(e))
 else:
-    print('WhatsApp ayarları yok, atlandı')
+    print('::warning::WhatsApp ayarları yok (CALLMEBOT_PHONE / CALLMEBOT_APIKEY secret eksik), atlandı')
