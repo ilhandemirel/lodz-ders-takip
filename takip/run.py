@@ -56,16 +56,18 @@ res = json.load(open(os.path.join(OUT, 'sonuc.json')))
 ics_out = os.path.join(OUT, 'lodz-ders-programi.ics')
 
 if os.environ.get('TAKVIM_TESTI', '').lower() == 'true':
-    # Abone olunan takvimin güncellendiğini görmek için bugün 21:00'e geçici bir etkinlik ekle.
-    today = dt.datetime.utcnow() + dt.timedelta(hours=1)
-    d = today.strftime('%Y%m%d')
-    ev = ("BEGIN:VEVENT\r\nUID:takvim-testi-" + d + "@ilhan\r\nDTSTAMP:" + dt.datetime.utcnow().strftime('%Y%m%dT%H%M%SZ') +
-          "\r\nDTSTART;TZID=Europe/Warsaw:" + d + "T210000\r\nDTEND;TZID=Europe/Warsaw:" + d + "T213000\r\n"
-          "SUMMARY:✅ Takvim testi – bu etkinlik bu akşamki kontrolde kendiliğinden silinecek\r\nEND:VEVENT\r\n")
+    # Abone olunan takvimin güncellendiğini görmek için geçici bir test etkinliği ekle.
+    # TEST_TARIH: YYYY-AA-GG (boşsa bugün), TEST_SAAT: SS:DD (boşsa 21:00). Bir sonraki otomatik kontrolde silinir.
+    tarih = (os.environ.get('TEST_TARIH') or '').strip() or (dt.datetime.utcnow() + dt.timedelta(hours=1)).strftime('%Y-%m-%d')
+    saat = (os.environ.get('TEST_SAAT') or '').strip() or '21:00'
+    start = dt.datetime.strptime(f'{tarih} {saat}', '%Y-%m-%d %H:%M')
+    end = start + dt.timedelta(minutes=30)
+    ev = ("BEGIN:VEVENT\r\nUID:takvim-testi-" + start.strftime('%Y%m%dT%H%M') + "@ilhan\r\nDTSTAMP:" + dt.datetime.utcnow().strftime('%Y%m%dT%H%M%SZ') +
+          "\r\nDTSTART;TZID=Europe/Warsaw:" + start.strftime('%Y%m%dT%H%M%S') + "\r\nDTEND;TZID=Europe/Warsaw:" + end.strftime('%Y%m%dT%H%M%S') + "\r\n"
+          "SUMMARY:✅ Takvim testi – sonraki otomatik kontrolde kendiliğinden silinecek\r\nEND:VEVENT\r\n")
     txt = open(ics_out, encoding='utf-8').read().replace('END:VCALENDAR', ev + 'END:VCALENDAR')
     open(ics_out, 'w', encoding='utf-8', newline='').write(txt)
-    print('Takvim testi etkinliği eklendi (bugün 21:00)')
-
+    print(f'Takvim testi etkinliği eklendi: {tarih} {saat}')
 
 def norm(path):
     try:
